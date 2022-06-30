@@ -5,12 +5,15 @@ import Image from 'next/image'
 export const Navbar = () => {
     return (
         <div>
-            <Link href='/'>
+            <Link href="/">
+                <a>
                 <Image
-                    src='https://www.seekpng.com/png/detail/1-15149_pokemon-logo-png-pokemon-go-logo-png.png'
-                    alt='navbar pokemon logo'
-                />         
+                        src='/assets/Pokemon-Logo-PNG-Pic.png'
+            alt='navbar pokemon logo'
+            width={124} height={36}
+            />   
+                </a>
             </Link>
         </div>
-    )
+        )
 }
